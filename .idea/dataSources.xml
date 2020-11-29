@@ -15,5 +15,17 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@3.93.187.80:1521:XE</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="library1_DB" uuid="8db1efaa-b9fd-4d84-830c-42e505cbff58">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://18.233.97.71:3306/library1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="library2_DB" uuid="255af161-b25a-4097-8e8d-0efb8d56c1e1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://18.233.97.71:3306/library2</jdbc-url>
+    </data-source>
   </component>
 </project>
